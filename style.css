@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+    overflow-x: hidden;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.header-color{
+    background-color: #1A0B2E;
+}
+.padding-auto{
+    padding: auto;
+}
+.grad-color{
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.display-flex{
+    display: flex;
+}
+.primary-p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+    opacity: 60%;
+
+    
+
+}
+.white-text{
+    color: #FFFFFF;
+}
+.primary-font-size{
+    font-size:1rem;
+
+}
+.primary-button{
+    width: 135px;
+    height: 44px;
+    padding: 12px 16px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, #F7E93F, #FB09B4,#9100F8);
+    color: #FFFFFF;
+}
+button:hover{
+    background: linear-gradient(to right,#9100F8, #F7E93F, #FB09B4);
+
+
+}
+.green{
+    color: #00FF88;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-15px);
+  }
+}
+.cursor-anim{
+  /* transition: transform ; */
+  transition: transform 3ms ease-out-in .1s;
+}
+.cursor-anim:hover{
+    transform: scale(.9,.9);
+}
+.primary-transition{
+   
+     cursor: pointer;
+  transition: transform 0.2s ease , box-shadow 0.2s ease;
+    animation: fadeUp 2s infinite ease-out 2s;
+}
+.primary-transition:hover{
+         transform: scale(1);
+  box-shadow: 0 0 3px #00ffa3;
+        }
+
+.tech-border{
+     background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+
+}
+/* main-style */
+
+.navbar{
+   justify-content: space-between;
+   align-items: center;
+   padding:30px 0;
+}
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.brand{
+    /* color:#FFFFFF; */
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+   
+ 
+}
+.nav-link{
+    text-decoration: none;
+     /* color: #FFFFFF; */
+     font-weight: 600;
+}
+.bar{
+      display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+
