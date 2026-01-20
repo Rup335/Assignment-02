@@ -133,7 +133,7 @@ button:hover{
 
 
 .banner{
-    background-image:url("../assets/hero-bg.png");
+    background-image:url("assets/hero-bg.png");
 
     width: 100%;
 
@@ -432,7 +432,7 @@ padding:0.375rem 1.3rem;
 /* footer section style */
 
 .footer{
-     background-image:url("../assets/footer-bg.png");
+     background-image:url("assets/footer-bg.png");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
